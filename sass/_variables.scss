@@ -1,3 +1,12 @@
-@mixin titleColor {
-    color: #1A1A1A;
+@mixin mainColor {
+    background-color: #7edead;
+}
+
+@mixin borderColor {
+    border: 1px solid #7edead;
+}
+
+@mixin Color {
+    color:  #7edead;
+    font-size: 24px;
 }

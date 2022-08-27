@@ -1,0 +1,46 @@
+.flued {
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 1px solid;
+    display: flex;
+
+    &__left {
+        width: 20%;
+        border-radius: 6px;
+        border: 1px solid red;
+        padding: 10px 10px;
+    }
+
+    &__left__button {
+        @include borderColor;
+        margin-top: 20px;
+        padding: 10px 25px;
+        border-radius: 10px;
+        @include mainColor;
+        cursor: pointer;
+        margin-left: 30px;
+    }
+
+    &__left__nav {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 25px;
+        text-align: center;
+    }
+
+    &__left__link {
+        margin-top: 10px;
+        text-decoration: none;
+        @include Color;
+    }
+
+
+    &__right {
+        height: 100vh;
+        padding: 20px 40px;
+        width: 80%;
+        @include mainColor;
+        overflow: auto;
+
+    }
+}
